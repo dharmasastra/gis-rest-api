@@ -1,4 +1,4 @@
-module github.com/dharmasastra/kost-gis-echo
+module github.com/dharmasastra/gis-rest-api
 
 go 1.14
 

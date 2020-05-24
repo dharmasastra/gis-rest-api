@@ -2,7 +2,7 @@ package controller
 
 import (
 	"fmt"
-	"github.com/dharmasastra/kost-gis-echo/app/models"
+	"github.com/dharmasastra/gis-rest-api/app/models"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/joho/godotenv"

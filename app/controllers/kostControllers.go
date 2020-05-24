@@ -2,7 +2,7 @@ package controller
 
 import (
 	"fmt"
-	"github.com/dharmasastra/kost-gis-echo/app/models"
+	"github.com/dharmasastra/gis-rest-api/app/models"
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo"
 	"net/http"

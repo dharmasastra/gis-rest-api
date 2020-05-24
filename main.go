@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/dharmasastra/kost-gis-echo/app/controllers"
-	"github.com/dharmasastra/kost-gis-echo/config"
+	"github.com/dharmasastra/gis-rest-api/app/controllers"
+	"github.com/dharmasastra/gis-rest-api/config"
 	"github.com/go-playground/validator/v10"
 )
 

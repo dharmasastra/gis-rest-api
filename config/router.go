@@ -1,7 +1,7 @@
 package config
 
 import (
-	controller "github.com/dharmasastra/kost-gis-echo/app/controllers"
+	controller "github.com/dharmasastra/gis-rest-api/app/controllers"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )
