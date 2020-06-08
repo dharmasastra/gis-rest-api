@@ -12,6 +12,9 @@ func NewRouter() *echo.Echo{
 		Format: "${time_rfc3339} | ${status} | ${latency_human} | ${remote_ip} | ${method} | ${uri} | ${error}\n",
 	}))
 	e.Use(middleware.Recover())
+	e.Use(middleware.CORSWithConfig(middleware.CORSConfig{
+		AllowHeaders: []string{echo.HeaderOrigin, echo.HeaderContentType, echo.HeaderAccept},
+	}))
 
 	e.GET("/kosts", controller.GetAllKost)
 	e.GET("/kost/:name", controller.GetKost)
